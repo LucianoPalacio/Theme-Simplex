@@ -1172,7 +1172,7 @@ table:not([class]) td {
 
 
 .header .menu .list .item>.list {
-    max-height: 0;
+    /* max-height: 0; */
     width: 250px;
     overflow: hidden;
     box-shadow: inset 0px 0px 14px -4px var(--c-menuShadow);
@@ -1199,7 +1199,6 @@ table:not([class]) td {
         width: 100%;
     }
 }
-
 
 .header .menu .list .item a:hover img {
     transform: scale(1.1);
@@ -1882,20 +1881,19 @@ table:not([class]) td {
     max-height: 100%;
 }
 
-.side-menu:checked ~ .hamb .hamb-line {
+/* .side-menu:checked ~ .hamb .hamb-line {
     background: transparent;
 }
 
 .side-menu:checked ~ .hamb .hamb-line::before {
     transform: rotate(-45deg);
     top:0;
-
 }
 
 .side-menu:checked ~ .hamb .hamb-line::after {
     transform: rotate(45deg);
     top:0;
-}
+} */
 
 @media (min-width: 768px) {
     .nav{
