@@ -1172,7 +1172,7 @@ table:not([class]) td {
 
 
 .header .menu .list .item>.list {
-    /* max-height: 0; */
+    max-height: 0;
     width: 250px;
     overflow: hidden;
     box-shadow: inset 0px 0px 14px -4px var(--c-menuShadow);
@@ -1195,6 +1195,7 @@ table:not([class]) td {
 
 @media (max-width: 768px) {
     .header .menu .list .item>.list {
+        max-height: 100%;
         position: static;
         width: 100%;
     }
